@@ -14,9 +14,11 @@
 #  limitations under the License.
 
 
-require 'ruby-applied-toolkit/check_is_active'
 require 'ruby-applied-toolkit/base62_encode'
+require 'ruby-applied-toolkit/check_is_active'
+require 'ruby-applied-toolkit/regexp_russian_ignore_case.rb'
 require 'ruby-applied-toolkit/string_is_ascii'
+
 
 
 require 'ruby-applied-toolkit/actionpack/action_controller_skip_render.rb'
