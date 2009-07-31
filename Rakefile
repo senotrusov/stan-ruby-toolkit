@@ -16,7 +16,7 @@
 
 spec = Gem::Specification.new do |s|
   s.name          = "ruby-applied-toolkit"
-  s.version       = "1.0.2"
+  s.version       = "1.0.3"
   s.date          = Time.now
   
   s.has_rdoc      = true
