@@ -133,13 +133,13 @@ module CachedConfig
 
     def call_reload
       begin
-        logger.debug "#{self.class}#call_reload: Reloading..."
+        logger.debug {"#{self.class}#call_reload: Reloading..."}
 
         reload
         
         @after_reload.call(*[self][0,@after_reload.arity]) if @after_reload
         
-        logger.debug "#{self.class}#call_reload: Reloaded."
+        logger.debug {"#{self.class}#call_reload: Reloaded."}
 
         @exception = nil
 
