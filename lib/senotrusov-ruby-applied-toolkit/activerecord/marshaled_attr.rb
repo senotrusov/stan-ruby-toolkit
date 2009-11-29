@@ -14,7 +14,7 @@
 #  limitations under the License.
 
 
-require 'ruby-toolkit'
+require 'senotrusov-ruby-toolkit'
 
 module MarshaledAttr
   include AccessorsGenerator

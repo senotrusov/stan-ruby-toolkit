@@ -14,25 +14,26 @@
 #  limitations under the License.
 
 
-require 'ruby-toolkit'
+require 'senotrusov-ruby-toolkit'
 
-module ConstantAccessor
-  include AccessorsGenerator
-  
-  def constant_attr(*args)
-    generate_accessors(args) do |attr, value|
-      {:line => (__LINE__+1), :file => __FILE__, :code => <<-EOS
-          def #{attr}
-            begin
-              @#{attr} ||= #{value} ? #{value}.constantize : #{value}
-            rescue NameError => exception
-              raise(NameError, "Cant load class '\#{#{value}}' used in \#{respond_to?(:technical_title) ? technical_title : "\#{self.class}\#{self.id}"}")
-            end
-          end
-        EOS
-      }
+module ActiveRecord
+  module Acts
+    module SometimesActive
+      def self.included(base)
+        base.extend(ClassMethods)
+      end
+
+      module ClassMethods
+        def acts_as_sometimes_active
+          class_eval <<-END
+            include CheckIsActive
+          END
+        end
+      end
     end
   end
 end
 
-ActiveRecord::Base.extend ConstantAccessor
+ActiveRecord::Base.class_eval do
+  include ActiveRecord::Acts::SometimesActive
+end

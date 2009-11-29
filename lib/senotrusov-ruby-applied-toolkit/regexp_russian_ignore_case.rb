@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class Regexp
   def self.new_with_russian_ignore_case regexp, *args
     regexp = regexp.dup.mb_chars
