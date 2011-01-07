@@ -18,8 +18,8 @@ require 'senotrusov-ruby-applied-toolkit/base62_encode'
 require 'senotrusov-ruby-applied-toolkit/check_is_active'
 require 'senotrusov-ruby-applied-toolkit/regexp_russian_ignore_case'
 require 'senotrusov-ruby-applied-toolkit/sequence'
-require 'senotrusov-ruby-applied-toolkit/string_is_ascii'
 require 'senotrusov-ruby-applied-toolkit/split_to_slices'
+require 'senotrusov-ruby-applied-toolkit/string_is_ascii'
 
 
 require 'senotrusov-ruby-applied-toolkit/actionpack/action_controller_skip_render.rb'
