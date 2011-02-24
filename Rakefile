@@ -1,5 +1,5 @@
 
-#  Copyright 2006-2009 Stanislav Senotrusov <senotrusov@gmail.com>
+#  Copyright 2006-2011 Stanislav Senotrusov <stan@senotrusov.com>
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -18,10 +18,10 @@ begin
   require 'jeweler'
   
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "senotrusov-ruby-applied-toolkit"
+    gemspec.name = "ruby-senotrusov-toolkit"
     gemspec.summary = "Helpers for my ruby applications"
-    gemspec.email = "senotrusov@gmail.com"
-    gemspec.homepage = "http://github.com/senotrusov/ruby-applied-toolkit"
+    gemspec.email = "stan@senotrusov.com"
+    gemspec.homepage = "http://github.com/senotrusov/ruby-senotrusov-toolkit"
     gemspec.authors = ["Stanislav Senotrusov"]
     
     gemspec.add_dependency "rails"
@@ -30,6 +30,6 @@ begin
   Jeweler::GemcutterTasks.new
   
 rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install jeweler"
+  puts "Jeweler not available. Install it with: gem install jeweler"
 end
 
