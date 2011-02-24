@@ -14,6 +14,7 @@
 #  limitations under the License.
 
 
+require 'ruby-senotrusov-toolkit/accessors_generator'
 require 'ruby-senotrusov-toolkit/base62_encode'
 require 'ruby-senotrusov-toolkit/check_is_active'
 require 'ruby-senotrusov-toolkit/regexp_russian_ignore_case'
