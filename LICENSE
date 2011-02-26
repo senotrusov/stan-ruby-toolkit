@@ -234,6 +234,6 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 It is also noted in the following files:
-    lib/rubymq-facets/actionpack/action_view_select_helpers.rb
-    lib/rubymq-facets/actionpack/prototype_helper_javascript_generator.rb
+    lib/ruby-senotrusov-toolkit/actionpack/action_view_select_helpers.rb
+    lib/ruby-senotrusov-toolkit/actionpack/prototype_helper_javascript_generator.rb
 
