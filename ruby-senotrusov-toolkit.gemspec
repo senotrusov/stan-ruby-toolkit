@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Stanislav Senotrusov"]
-  s.date = %q{2011-07-09}
+  s.date = %q{2011-07-22}
   s.email = %q{stan@senotrusov.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -48,6 +48,10 @@ Gem::Specification.new do |s|
     "lib/ruby-senotrusov-toolkit/sequence.rb",
     "lib/ruby-senotrusov-toolkit/split_to_slices.rb",
     "lib/ruby-senotrusov-toolkit/string_isascii.rb",
+    "lib/ruby-senotrusov-toolkit/thread/threadsafe_sequence.rb",
+    "lib/ruby-senotrusov-toolkit/thread/threadsafe_sequence_loop.rb",
+    "lib/ruby-senotrusov-toolkit/to_hex_bin_view.rb",
+    "ruby-senotrusov-toolkit.gemspec",
     "snippets/rails.rb"
   ]
   s.homepage = %q{http://github.com/senotrusov/ruby-senotrusov-toolkit}
