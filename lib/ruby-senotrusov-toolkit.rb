@@ -47,7 +47,7 @@ require 'ruby-senotrusov-toolkit/to_hex_bin_view'
 #require 'ruby-senotrusov-toolkit/activerecord/touch'
 ## require 'ruby-senotrusov-toolkit/activerecord/transaction_mutex' # AR have connection pooling now
 
-
+require 'ruby-senotrusov-toolkit/activerecord/postgresql_exec'
 
 require 'ruby-senotrusov-toolkit/thread/threadsafe_sequence'
 require 'ruby-senotrusov-toolkit/thread/threadsafe_sequence_loop'
