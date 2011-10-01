@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Stanislav Senotrusov"]
-  s.date = %q{2011-07-22}
+  s.date = %q{2011-10-02}
   s.email = %q{stan@senotrusov.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "lib/ruby-senotrusov-toolkit/actionpack/action_view_select_helpers.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/graphviz_filter.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/prototype_helper_javascript_generator.rb",
+    "lib/ruby-senotrusov-toolkit/actionpack/routes_regexp_with_format.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/summary_table.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/to_textile.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/truefalsize_checkbox.rb",
@@ -37,6 +38,7 @@ Gem::Specification.new do |s|
     "lib/ruby-senotrusov-toolkit/activerecord/constant_accessor.rb",
     "lib/ruby-senotrusov-toolkit/activerecord/force_reload_all_associated.rb",
     "lib/ruby-senotrusov-toolkit/activerecord/marshaled_attr.rb",
+    "lib/ruby-senotrusov-toolkit/activerecord/postgresql_exec.rb",
     "lib/ruby-senotrusov-toolkit/activerecord/postgresql_notifications.rb",
     "lib/ruby-senotrusov-toolkit/activerecord/sanitize_sql.rb",
     "lib/ruby-senotrusov-toolkit/activerecord/subclasses.rb",
@@ -46,11 +48,11 @@ Gem::Specification.new do |s|
     "lib/ruby-senotrusov-toolkit/check_is_active.rb",
     "lib/ruby-senotrusov-toolkit/regexp_russian_ignore_case.rb",
     "lib/ruby-senotrusov-toolkit/sequence.rb",
-    "lib/ruby-senotrusov-toolkit/split_to_slices.rb",
+    "lib/ruby-senotrusov-toolkit/string_equal_sized_chunks.rb",
     "lib/ruby-senotrusov-toolkit/string_isascii.rb",
+    "lib/ruby-senotrusov-toolkit/string_to_hex_bin_view.rb",
     "lib/ruby-senotrusov-toolkit/thread/threadsafe_sequence.rb",
     "lib/ruby-senotrusov-toolkit/thread/threadsafe_sequence_loop.rb",
-    "lib/ruby-senotrusov-toolkit/to_hex_bin_view.rb",
     "ruby-senotrusov-toolkit.gemspec",
     "snippets/rails.rb"
   ]

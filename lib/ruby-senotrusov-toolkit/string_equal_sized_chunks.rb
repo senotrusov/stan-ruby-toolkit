@@ -14,7 +14,7 @@
 #  limitations under the License.
  
 class String
-  def split_to_slices(length)
+  def equal_sized_chunks(length)
     result = []
     string = self.dup
     

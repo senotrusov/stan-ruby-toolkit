@@ -19,9 +19,9 @@
 #require 'ruby-senotrusov-toolkit/check_is_active'
 #require 'ruby-senotrusov-toolkit/regexp_russian_ignore_case'
 require 'ruby-senotrusov-toolkit/sequence'
-require 'ruby-senotrusov-toolkit/split_to_slices'
+require 'ruby-senotrusov-toolkit/string_equal_sized_chunks'
 require 'ruby-senotrusov-toolkit/string_isascii'
-require 'ruby-senotrusov-toolkit/to_hex_bin_view'
+require 'ruby-senotrusov-toolkit/string_to_hex_bin_view'
 
 
 #require 'ruby-senotrusov-toolkit/actionpack/action_controller_skip_render.rb'
