@@ -21,7 +21,7 @@ class Regexp
   #
   def with_format(*args)
     formats = args.empty? ? [:html, :json] : args
-    Regexp.new(self.source + "(?=" + formats.map{|format| "\\.#{format}\\z"}.join("|") + ")|" + self.source)
+    self.class.new(self.source + "(?=" + formats.map{|format| "\\.#{format}\\z"}.join("|") + ")|" + self.source)
   end
 end
 
