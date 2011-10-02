@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     "lib/ruby-senotrusov-toolkit/actionpack/action_view_select_helpers.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/graphviz_filter.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/prototype_helper_javascript_generator.rb",
-    "lib/ruby-senotrusov-toolkit/actionpack/routes_regexp_with_format.rb",
+    "lib/ruby-senotrusov-toolkit/actionpack/routes_regexp_constrain_with_formats.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/summary_table.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/to_textile.rb",
     "lib/ruby-senotrusov-toolkit/actionpack/truefalsize_checkbox.rb",

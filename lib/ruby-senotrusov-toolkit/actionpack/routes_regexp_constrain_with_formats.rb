@@ -15,11 +15,11 @@
 
 
 class Regexp
-  # constraints: { :id => /[^\/]+/.with_format(:html, :json) }
+  # constraints: { :id => /[^\/]+/.with_formats(:html, :json) }
   #
   # will produce /[^\/]+(?=\.html\z|\.json\z)|[^\/]+/
   #
-  def with_format(*args)
+  def with_formats(*args)
     formats = args.empty? ? [:html, :json] : args
     self.class.new(self.source + "(?=" + formats.map{|format| "\\.#{format}\\z"}.join("|") + ")|" + self.source)
   end
