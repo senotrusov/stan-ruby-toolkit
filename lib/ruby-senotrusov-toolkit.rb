@@ -15,8 +15,8 @@
 
 
 #require 'ruby-senotrusov-toolkit/accessors_generator'
-#require 'ruby-senotrusov-toolkit/base62_encode'
 #require 'ruby-senotrusov-toolkit/check_is_active'
+require 'ruby-senotrusov-toolkit/base62'
 #require 'ruby-senotrusov-toolkit/regexp_russian_ignore_case'
 require 'ruby-senotrusov-toolkit/sequence'
 require 'ruby-senotrusov-toolkit/string_equal_sized_chunks'
