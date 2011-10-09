@@ -53,3 +53,8 @@ require 'ruby-senotrusov-toolkit/activerecord/postgresql_exec'
 require 'ruby-senotrusov-toolkit/thread/threadsafe_sequence'
 require 'ruby-senotrusov-toolkit/thread/threadsafe_sequence_loop'
 
+
+
+class SenotrusovToolkitEngine < Rails::Engine
+end
+
