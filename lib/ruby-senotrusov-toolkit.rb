@@ -20,6 +20,7 @@ require 'ruby-senotrusov-toolkit/base62'
 #require 'ruby-senotrusov-toolkit/regexp_russian_ignore_case'
 require 'ruby-senotrusov-toolkit/sequence'
 require 'ruby-senotrusov-toolkit/string_equal_sized_chunks'
+require 'ruby-senotrusov-toolkit/string_gsubh'
 require 'ruby-senotrusov-toolkit/string_isascii'
 require 'ruby-senotrusov-toolkit/string_to_hex_bin_view'
 
