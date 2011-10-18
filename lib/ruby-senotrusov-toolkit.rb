@@ -22,6 +22,7 @@ require 'ruby-senotrusov-toolkit/sequence'
 require 'ruby-senotrusov-toolkit/string_equal_sized_chunks'
 require 'ruby-senotrusov-toolkit/string_gsubh'
 require 'ruby-senotrusov-toolkit/string_isascii'
+require 'ruby-senotrusov-toolkit/string_squeeze_more'
 require 'ruby-senotrusov-toolkit/string_to_hex_bin_view'
 
 #require 'ruby-senotrusov-toolkit/actionpack/action_controller_skip_render.rb'
