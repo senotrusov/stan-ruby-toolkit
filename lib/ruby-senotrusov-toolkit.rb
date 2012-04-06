@@ -49,6 +49,7 @@ require 'ruby-senotrusov-toolkit/actionpack/routes_regexp_constrain_with_formats
 #require 'ruby-senotrusov-toolkit/activerecord/touch'
 ## require 'ruby-senotrusov-toolkit/activerecord/transaction_mutex' # AR have connection pooling now
 
+require 'ruby-senotrusov-toolkit/activerecord/if-unless-also'
 require 'ruby-senotrusov-toolkit/activerecord/postgresql_exec'
 
 require 'ruby-senotrusov-toolkit/thread/threadsafe_sequence'
