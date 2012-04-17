@@ -16,39 +16,40 @@
 
 # FooModel.where(foo: 1).
 #
-#   if(true) do
-#     where(bar: 2)
+#   if(true) do |query|
+#     query.where(bar: 2)
 #   end.
 #
-#   also do
+#   also do |query|
 #     if(true)
-#       where(qux: 3)
+#       query.where(qux: 3)
 #     else
-#       where(qux: 4)
+#       query.where(qux: 4)
 #     end
 #   end
 
 module ActiveRecord
   module QueryMethods
     
-    def if(condition, &block)
+    def if(condition)
       if condition
-        instance_exec(&block)
+        yield(self)
       else
         self
       end
     end
 
-    def unless(condition, &block)
+    def unless(condition)
       unless condition
-        instance_exec(&block)
+        yield(self)
       else
         self
       end
     end
 
-    def also(&block)
-      instance_exec(&block)
+    def also
+      yield(self)
     end
+
   end
 end
