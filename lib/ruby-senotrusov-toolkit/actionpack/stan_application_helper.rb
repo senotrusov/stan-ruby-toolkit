@@ -67,10 +67,12 @@ module StanApplicationHelper
   end
   
   def hellip string, length = 60
-    if string.length <= length
-      string
-    else
-      string[0,length] + '…'
+    if string
+      if string.length <= length
+        string
+      else
+        string[0,length] + '…'
+      end
     end
   end
   
