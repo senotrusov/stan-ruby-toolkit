@@ -14,7 +14,7 @@
 #  limitations under the License.
 
 
-l='ruby-senotrusov-toolkit/'
+l='senotrusov-ruby-toolkit/'
 
 require l+'base62'
 require l+'sequence'

@@ -18,10 +18,10 @@ begin
   require 'jeweler'
   
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "ruby-senotrusov-toolkit"
+    gemspec.name = "senotrusov-ruby-toolkit"
     gemspec.summary = "Helpers for my ruby applications"
     gemspec.email = "stan@senotrusov.com"
-    gemspec.homepage = "http://github.com/senotrusov/ruby-senotrusov-toolkit"
+    gemspec.homepage = "http://github.com/senotrusov/senotrusov-ruby-toolkit"
     gemspec.authors = ["Stanislav Senotrusov"]
     
     gemspec.add_dependency "rails"
