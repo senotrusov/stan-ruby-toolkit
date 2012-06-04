@@ -14,7 +14,7 @@
 #  limitations under the License.
 
 
-l='senotrusov-ruby-toolkit/'
+l='stan-ruby-toolkit/'
 
 require l+'base62'
 require l+'sequence'
@@ -37,5 +37,5 @@ require l+'thread/threadsafe_sequence'
 require l+'thread/threadsafe_sequence_loop'
 
 
-class SenotrusovToolkitEngine < Rails::Engine
+class StanToolkitEngine < Rails::Engine
 end
