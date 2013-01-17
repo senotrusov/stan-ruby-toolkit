@@ -93,16 +93,20 @@ module StanApplicationHelper
     "<hr>".html_safe
   end
 
-  def title model, attribute = nil
-    if attribute
-      if /\A(?<association>.*)_id\z/ =~ attribute.to_s
-        model = model.send(association)
-      else
-        model = model.send(attribute)
-      end
-    end
-
+  def title model
     model.respond_to?(:title) && model.title || model
+  end
+
+  def title_with_link model, kind = nil
+    return unless model
+    text = title model
+    kind = model.class.name.underscore unless kind
+
+    if respond_to?("#{kind}_path") && can?(:show, kind)
+      link_to text, send("#{kind}_path", model)
+    else
+      text
+    end
   end
 
   def inline_attribute_name model, attribute
